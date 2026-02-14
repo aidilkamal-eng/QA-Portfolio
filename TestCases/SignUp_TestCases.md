@@ -126,8 +126,8 @@ verify Password: Chungus12345
 **Hasil Aktual:** Akun berhasil dibuat  
 **Status:** Fail  
 **Catatan:**  Rekomendasi: Implementasikan verifikasi email (OTP/Link aktifasi) sebelum akun terbuat untuk menghindari penyalahgunaan seperti akun palsu.  
-Bukti alamat akun tidak nyata:
-![Screenshot email dari google bahwa akun email "chungus676869@gmail.com" tidak ditemukan](/TestCases/Images/Screenshot 2026-02-14 220511.png)
+Bukti alamat akun tidak nyata:  
+![Screenshot email dari google bahwa akun email "chungus676869@gmail.com" tidak ditemukan](Images/Screenshot 2026-02-14 220511.png)
 
 
 
