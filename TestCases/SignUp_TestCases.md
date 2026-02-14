@@ -29,10 +29,10 @@
 2. Selesaikan Captcha
 3. Klik "Create Account"
 
-**Data Uji:** 
-Email: chungus@google.com7
-Username:Chungus156
-Password: chungus12345
+**Data Uji:**  
+Email: chungus@google.com7  
+Username:Chungus156  
+Password: chungus12345  
 verify Password: chungus 12345
 
 **Hasil yang Diharapkan:** Akun tidak dibuat dan muncul pesan kesalahan format email  
@@ -51,10 +51,10 @@ verify Password: chungus 12345
 2. Selesaikan Captcha
 3. Klik "Create Account"
 
-**Data Uji:** 
-Email: chungus@gmail.com
-Username:Chungus156
-Password: chungus12345
+**Data Uji:**  
+Email: chungus@gmail.com  
+Username:Chungus156  
+Password: chungus12345  
 verify Password: chungus 122345
 
 **Hasil yang Diharapkan:** Akun tidak dibuat dan muncul pesan error ketidaksesuaian password  
@@ -72,11 +72,11 @@ verify Password: chungus 122345
 1. Masukkan data Email, Username, Password, dan Verify Password
 2. Klik "Create Account"
 
-**Data Uji:** 
-Email: chungus@gmail.com
-Username:Chungus156
-Password: chungus12345
-verify Password: chungus 12345
+**Data Uji:**  
+Email: chungus@gmail.com  
+Username:Chungus156  
+Password: chungus12345  
+verify Password: chungus 12345  
 
 **Hasil yang Diharapkan:** Akun tidak dibuat dan muncul error CAPTCHA  
 **Hasil Aktual:** Muncul pesan “Invalid CAPTCHA”  
