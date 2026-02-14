@@ -1,10 +1,10 @@
 # Test Case untuk fitur Sign Up
 
 ## HLTB_SIGNUP_001
-**Skenario:** Verifikasi pendaftaran dengan kredensial valid
-**Prioritas:** Tinggi
-**Jenis Tes:** Functional
-**Prasyarat:** Pengguna belum pernah mendaftarkan akun sebelumnya
+**Skenario:** Verifikasi pendaftaran dengan kredensial valid  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna belum pernah mendaftarkan akun sebelumnya  
 **Langkah Pengujian:**
 1. Buka Website
 2. Klik "Join"
@@ -12,11 +12,11 @@
 4. Selesaikan Captcha
 5. Klik "Create Account"
 
-**Data Uji:** (Menggunakan data pribadi)
-**Hasil yang Diharapkan:** Akun berhasil didaftarkan
-**Hasil Aktual:** Akun berhasil dibuat dan diarahkan ke halaman profil
-**Status:** Pass
-**Catatan:** Data pribadi digunakan karena akan dipakai terus
+**Data Uji:** (Menggunakan data pribadi)  
+**Hasil yang Diharapkan:** Akun berhasil didaftarkan  
+**Hasil Aktual:** Akun berhasil dibuat dan diarahkan ke halaman profil  
+**Status:** Pass  
+**Catatan:** Data pribadi digunakan karena akan dipakai terus  
 
 
 ## HLTB_SIGNUP_002
