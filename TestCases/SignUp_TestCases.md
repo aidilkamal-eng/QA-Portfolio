@@ -85,7 +85,7 @@ verify Password: chungus 12345
 
 
 ## HLTB_SIGNUP_005
-**Skenario:** Verifikasi pendaftaran dengan format password tidak valid 
+**Skenario:** Verifikasi pendaftaran dengan format password tidak valid  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
 **Prasyarat:** Pengguna berada di halaman pendaftaran  
@@ -107,7 +107,7 @@ Verify Password: chungus12345
 
 
 ## HLTB_SIGNUP_006
-**Skenario:** Verifikasi pendaftaran dengan alamat email palsu
+**Skenario:** Verifikasi pendaftaran dengan alamat email palsu  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
 **Prasyarat:** Pengguna berada di halaman pendaftaran  
@@ -122,12 +122,12 @@ Username: Chungus156
 Password: Chungus12345  
 verify Password: Chungus12345  
 
-**Hasil yang Diharapkan:** Akun tidak dibuat dan muncul error email tidak ditemukan 
+**Hasil yang Diharapkan:** Akun tidak dibuat dan muncul error email tidak ditemukan  
 **Hasil Aktual:** Akun berhasil dibuat  
 **Status:** Fail  
 **Catatan:**  Rekomendasi: Implementasikan verifikasi email (OTP/Link aktifasi) sebelum akun terbuat untuk menghindari penyalahgunaan seperti akun palsu.  
 Bukti alamat akun tidak nyata:  
-![Screenshot email dari google bahwa akun email "chungus676869@gmail.com" tidak ditemukan](Images/Screenshot 2026-02-14 220511.png)
+![Screenshot email dari google bahwa akun email "chungus676869@gmail.com" tidak ditemukan](https://github.com/aidilkamal-eng/QA-Portfolio/blob/b93cd772323162c445e2a1910f4fcc07e51808bd/TestCases/Images/Screenshot%202026-02-14%20220511.png)
 
 
 
