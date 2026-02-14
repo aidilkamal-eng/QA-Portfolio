@@ -83,3 +83,230 @@ verify Password: chungus 12345
 **Status:** Pass  
 **Catatan:**
 
+
+## HLTB_SIGNUP_005
+**Skenario:** Verifikasi pendaftaran dengan format password tidak valid  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman pendaftaran  
+**Langkah Pengujian:**
+1. Masukkan data email, username, dan password dengan format tidak valid
+2. Selesaikan Captcha
+3. Klik "Create Account"
+
+**Data Uji:**  
+Email: chungus@gmail.com  
+Username: Chungus156  
+Password: chungus12345  
+Verify Password: chungus12345  
+
+**Hasil yang Diharapkan:** Akun tidak dibuat dan sistem menampilkan pesan error bahwa password harus terdiri dari 8–128 karakter serta mengandung minimal satu huruf kapital dan satu angka.  
+**Hasil Aktual:** Muncul pesan error "Password must be 8-128 characters and include at least one uppercase letter and one number."  
+**Status:** Pass  
+**Catatan:** Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor
+
+
+## HLTB_SIGNUP_006
+**Skenario:** Verifikasi pendaftaran dengan email yang sudah digunakan  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:**  
+- Pengguna berada di halaman pendaftaran
+- Email "aidilkamal91@gmail.com" sudah terdaftar pada sistem sebelumnya
+
+**Langkah Pengujian:**
+1. Masukkan data email, username, dan password
+2. Selesaikan Captcha
+3. Klik "Create Account"
+
+**Data Uji:**  
+Email: aidilkamal91@gmail.com  
+Username: Chungus153  
+Password: Chungus12345  
+Verify Password: Chungus12345  
+
+**Hasil yang Diharapkan:** Akun tidak dibuat dan sistem menampilkan pesan error bahwa email sudah digunakan sebelumnya.  
+**Hasil Aktual:** Akun baru terbuat  
+**Status:** Fail  
+**Catatan:** 
+
+
+## HLTB_SIGNUP_007
+**Skenario:** Verifikasi pendaftaran dengan username yang sudah digunakan  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:**  
+- Pengguna berada di halaman pendaftaran
+- Username "steelcharmer" sudah terdaftar pada sistem sebelumnya
+
+**Langkah Pengujian:**
+1. Masukkan data email, username, dan password
+2. Selesaikan Captcha
+3. Klik "Create Account"
+
+**Data Uji:**  
+Email: aidilkamal91@gmail.com  
+Username: steelcharmer  
+Password: Chungus12345  
+Verify Password: Chungus12345  
+
+**Hasil yang Diharapkan:** Akun tidak dibuat dan sistem menampilkan pesan error bahwa username sudah terdaftar di sistem.  
+**Hasil Aktual:** Muncul pesan error "Sorry that username already exists."  
+**Status:** Pass  
+**Catatan:** 
+
+
+## HLTB_SIGNUP_008
+**Skenario:** Verifikasi pendaftaran dengan format username tidak valid
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman pendaftaran  
+**Langkah Pengujian:**
+1. Masukkan data email, username, dan password dengan format invalid
+2. Selesaikan Captcha
+3. Klik "Create Account"
+
+**Data Uji:**  
+Email: aidilkamal91@gmail.com  
+Username: steel charmer  
+Password: Chungus12345  
+Verify Password: Chungus12345  
+
+**Hasil yang Diharapkan:** Akun tidak dibuat dan sistem menampilkan pesan error bahwa format username tidak valid.  
+**Hasil Aktual:** Muncul pesan error "Username may only have Numbers, Letters and _ allowed. 3-20 Characters."  
+**Status:** Pass  
+**Catatan:** Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter.
+
+
+## HLTB_SIGNUP_009
+**Skenario:** Verifikasi pendaftaran dengan karakter username tidak cukup
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman pendaftaran  
+**Langkah Pengujian:**
+1. Masukkan data email, username, dan password dengan format invalid
+2. Selesaikan Captcha
+3. Klik "Create Account"
+
+**Data Uji:**  
+Email: aidilkamal91@gmail.com  
+Username: LA  
+Password: Chungus12345  
+Verify Password: Chungus12345  
+
+**Hasil yang Diharapkan:** Akun tidak dibuat dan sistem menampilkan pesan error bahwa format username tidak valid.  
+**Hasil Aktual:** Muncul pesan error "Username may only have Numbers, Letters and _ allowed. 3-20 Characters."  
+**Status:** Pass  
+**Catatan:** Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter.
+
+
+## HLTB_SIGNUP_010
+**Skenario:** Verifikasi pendaftaran dengan karakter password tidak cukup  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman pendaftaran  
+**Langkah Pengujian:**
+1. Masukkan data email, username, dan password dengan format tidak valid
+2. Selesaikan Captcha
+3. Klik "Create Account"
+
+**Data Uji:**  
+Email: aidilkamal91@gmail.com  
+Username: Chungus156  
+Password: Chung4s  
+Verify Password: Chung4s  
+
+**Hasil yang Diharapkan:** Akun tidak dibuat dan sistem menampilkan pesan error bahwa password harus terdiri dari 8–128 karakter serta mengandung minimal satu huruf kapital dan satu angka.  
+**Hasil Aktual:** Muncul pesan error "Password must be 8-128 characters and include at least one uppercase letter and one number."  
+**Status:** Pass  
+**Catatan:** Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor
+
+
+## HLTB_SIGNUP_011
+**Skenario:** Verifikasi pendaftaran dengan kolom email kosong  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman pendaftaran  
+**Langkah Pengujian:**
+1. Masukkan data username dan password
+2. Selesaikan Captcha
+3. Klik "Create Account"
+
+**Data Uji:**   
+Email: (kosong)  
+Username: Chungus156  
+Password: Chungus12345  
+Verify Password: Chungus12345  
+
+**Hasil yang Diharapkan:** Akun tidak dibuat dan sistem menampilkan pesan error bahwa kolom email perlu di isi  
+**Hasil Aktual:** Muncul pesan error "Email Address cannot be empty."  
+**Status:** Pass  
+**Catatan:**  
+
+
+## HLTB_SIGNUP_012
+**Skenario:** Verifikasi pendaftaran dengan kolom username kosong  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman pendaftaran  
+**Langkah Pengujian:**
+1. Masukkan data email dan password
+2. Selesaikan Captcha
+3. Klik "Create Account"
+
+**Data Uji:**   
+Email: aidilkamal91@gmail.com  
+Username: (kosong)  
+Password: Chungus12345  
+Verify Password: Chungus12345  
+
+**Hasil yang Diharapkan:** Akun tidak dibuat dan sistem menampilkan pesan error bahwa kolom username perlu di isi  
+**Hasil Aktual:** Muncul pesan error "Username cannot be empty."  
+**Status:** Pass  
+**Catatan:**  
+
+
+## HLTB_SIGNUP_013
+**Skenario:** Verifikasi pendaftaran dengan kolom password kosong  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman pendaftaran  
+**Langkah Pengujian:**
+1. Masukkan data email dan username
+2. Selesaikan Captcha
+3. Klik "Create Account"
+
+**Data Uji:**   
+Email: aidilkamal91@gmail.com  
+Username: Chungus156  
+Password: (kosong)  
+Verify Password: Chungus12345  
+
+**Hasil yang Diharapkan:** Akun tidak dibuat dan sistem menampilkan pesan error bahwa kolom password perlu di isi  
+**Hasil Aktual:** Muncul pesan error "Password cannot be empty."  
+**Status:** Pass  
+**Catatan:**  
+
+
+## HLTB_SIGNUP_014
+**Skenario:** Verifikasi pendaftaran dengan kolom verify password kosong  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman pendaftaran  
+**Langkah Pengujian:**
+1. Masukkan data email, username, dan password tanpa verify password
+2. Selesaikan Captcha
+3. Klik "Create Account"
+
+**Data Uji:**   
+Email: aidilkamal91@gmail.com  
+Username: Chungus156  
+Password: Chungus12345  
+Verify Password: (kosong)  
+
+**Hasil yang Diharapkan:** Akun tidak dibuat dan sistem menampilkan pesan error bahwa kolom verify password perlu di isi  
+**Hasil Aktual:** Muncul pesan error "Your passwords do not match."  
+**Status:** Pass  
+**Catatan:**  Rekomendasi: pesan error yang ditampilkan adalah "Verify password cannot be empty"
+
+
