@@ -107,27 +107,25 @@ Verify Password: chungus12345
 
 
 ## HLTB_SIGNUP_006
-**Skenario:** Verifikasi pendaftaran dengan alamat email palsu  
+**Skenario:** Verifikasi pendaftaran dengan email yang sudah digunakan  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
-**Prasyarat:** Pengguna berada di halaman pendaftaran  
+**Prasyarat:**  
+- Pengguna berada di halaman pendaftaran
+- Email "aidilkamal91@gmail.com" sudah terdaftar pada sistem sebelumnya
+
 **Langkah Pengujian:**
-1. Masukkan data invalid Email, Username, Password, dan Verify Password
+1. Masukkan data email, username, dan password
 2. Selesaikan Captcha
 3. Klik "Create Account"
 
 **Data Uji:**  
-Email: chungus676869@gmail.com  
-Username: Chungus156  
+Email: aidilkamal91@gmail.com  
+Username: Chungus153  
 Password: Chungus12345  
-verify Password: Chungus12345  
+Verify Password: Chungus12345  
 
-**Hasil yang Diharapkan:** Akun tidak dibuat dan muncul error email tidak ditemukan  
-**Hasil Aktual:** Akun berhasil dibuat  
+**Hasil yang Diharapkan:** Akun tidak dibuat dan sistem menampilkan pesan error bahwa email sudah digunakan sebelumnya.  
+**Hasil Aktual:** Akun baru terbuat  
 **Status:** Fail  
-**Catatan:**  Rekomendasi: Implementasikan verifikasi email (OTP/Link aktifasi) sebelum akun terbuat untuk menghindari penyalahgunaan seperti akun palsu.  
-Bukti alamat akun tidak nyata:  
-![Screenshot email dari google bahwa akun email "chungus676869@gmail.com" tidak ditemukan](https://github.com/aidilkamal-eng/QA-Portfolio/blob/b93cd772323162c445e2a1910f4fcc07e51808bd/TestCases/Images/Screenshot%202026-02-14%20220511.png)
-
-
-
+**Catatan:** 
