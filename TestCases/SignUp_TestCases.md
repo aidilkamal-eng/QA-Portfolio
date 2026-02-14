@@ -20,10 +20,10 @@
 
 
 ## HLTB_SIGNUP_002
-**Skenario:** Verifikasi pendaftaran dengan email tidak valid
-**Prioritas:** Tinggi
-**Jenis Tes:** Functional
-**Prasyarat:** Pengguna berada di halaman pendaftaran
+**Skenario:** Verifikasi pendaftaran dengan email tidak valid  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman pendaftaran  
 **Langkah Pengujian:**
 1. Masukkan data invalid Email, Username, Password, dan Verify Password
 2. Selesaikan Captcha
@@ -35,17 +35,17 @@ Username:Chungus156
 Password: chungus12345
 verify Password: chungus 12345
 
-**Hasil yang Diharapkan:** Akun tidak dibuat dan muncul pesan kesalahan format email
-**Hasil Aktual:** Muncul peringatan bar merah: “Email address is not valid”
-**Status:** Pass
+**Hasil yang Diharapkan:** Akun tidak dibuat dan muncul pesan kesalahan format email  
+**Hasil Aktual:** Muncul peringatan bar merah: “Email address is not valid”  
+**Status:** Pass  
 **Catatan:** 
 
 
 ## HLTB_SIGNUP_003
-**Skenario:** Verifikasi pendaftaran dengan konfirmasi password tidak cocok
-**Prioritas:** Tinggi
-**Jenis Tes:** Functional
-**Prasyarat:** Pengguna berada di halaman pendaftaran
+**Skenario:** Verifikasi pendaftaran dengan konfirmasi password tidak cocok  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman pendaftaran  
 **Langkah Pengujian:**
 1. Masukkan data invalid Email, Username, Password, dan Verify Password
 2. Selesaikan Captcha
@@ -57,17 +57,17 @@ Username:Chungus156
 Password: chungus12345
 verify Password: chungus 122345
 
-**Hasil yang Diharapkan:** Akun tidak dibuat dan muncul pesan error ketidaksesuaian password
-**Hasil Aktual:** Muncul peringatan: “Your passwords do not match”
-**Status:** Pass
+**Hasil yang Diharapkan:** Akun tidak dibuat dan muncul pesan error ketidaksesuaian password  
+**Hasil Aktual:** Muncul peringatan: “Your passwords do not match”  
+**Status:** Pass  
 **Catatan:**
 
 
 ## HLTB_SIGNUP_004
-**Skenario:** Verifikasi pendaftaran tanpa mencentang CAPTCHA
-**Prioritas:** Tinggi
-**Jenis Tes:** Functional
-**Prasyarat:** Pengguna berada di halaman pendaftaran
+**Skenario:** Verifikasi pendaftaran tanpa mencentang CAPTCHA  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman pendaftaran  
 **Langkah Pengujian:**
 1. Masukkan data Email, Username, Password, dan Verify Password
 2. Klik "Create Account"
@@ -78,8 +78,8 @@ Username:Chungus156
 Password: chungus12345
 verify Password: chungus 12345
 
-**Hasil yang Diharapkan:** Akun tidak dibuat dan muncul error CAPTCHA
-**Hasil Aktual:** Muncul pesan “Invalid CAPTCHA”
-**Status:** Pass
+**Hasil yang Diharapkan:** Akun tidak dibuat dan muncul error CAPTCHA  
+**Hasil Aktual:** Muncul pesan “Invalid CAPTCHA”  
+**Status:** Pass  
 **Catatan:**
 
