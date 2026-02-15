@@ -1,6 +1,6 @@
 # Test Case untuk fitur Login
 
-## HLTB_LOGIN_001
+## HLTB_TC_LOGIN_001
 **Skenario:** Login dengan kredensial valid  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -19,7 +19,7 @@
 **Catatan:** Data pribadi digunakan karena akan dipakai terus  
 
 
-## HLTB_LOGIN_002
+## HLTB_TC_LOGIN_002
 **Skenario:** Login dengan akun yang belum terdaftar  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -42,7 +42,7 @@ Password: Chungus12345
 **Catatan:** Pesan error masih bersifat umum dan tidak menjelaskan apakah kesalahan pada username atau password. Direkomendasikan evaluasi dari sisi UX dan keamanan.  
 
 
-## HLTB_LOGIN_003
+## HLTB_TC_LOGIN_003
 **Skenario:** Login dengan password salah  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -65,7 +65,7 @@ Password: Chungus12345 (invalid)
 **Catatan:** Pesan error masih bersifat umum dan tidak menjelaskan apakah kesalahan pada username atau password. Direkomendasikan evaluasi dari sisi UX dan keamanan.
 
 
-## HLTB_LOGIN_004
+## HLTB_TC_LOGIN_004
 **Skenario:** Login tanpa mencentang captcha  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -84,7 +84,7 @@ Password: Chungus12345 (invalid)
 **Catatan:** 
 
 
-## HLTB_LOGIN_005
+## HLTB_TC_LOGIN_005
 **Skenario:** Login dengan kolom username kosong  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -103,7 +103,7 @@ Password: Chungus12345
 **Catatan:**  
 
 
-## HLTB_LOGIN_006
+## HLTB_TC_LOGIN_006
 **Skenario:** Login dengan kolom password kosong  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -122,7 +122,7 @@ Username: steelcharmer
 **Catatan:**  
 
 
-## HLTB_LOGIN_007
+## HLTB_TC_LOGIN_007
 **Skenario:** Login dengan username mengandung karakter khusus (@,#,$, dll)  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -142,7 +142,7 @@ Password: Chungus12345
 **Catatan:**  Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter.  
 
 
-## HLTB_LOGIN_008
+## HLTB_TC_LOGIN_008
 **Skenario:** Login dengan username kurang dari minimum karakter  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -162,7 +162,7 @@ Password: Chungus12345
 **Catatan:**  Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter. 
 
 
-## HLTB_LOGIN_009
+## HLTB_TC_LOGIN_009
 **Skenario:** Login dengan username melebihi maksimum karakter  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -182,7 +182,7 @@ Password: Chungus12345
 **Catatan:**  Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter. 
 
 
-## HLTB_LOGIN_010
+## HLTB_TC_LOGIN_010
 **Skenario:** Login dengan username mengandung spasi  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -202,7 +202,7 @@ Password: Chungus12345
 **Catatan:**  Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter.
 
 
-## HLTB_LOGIN_011
+## HLTB_TC_LOGIN_011
 **Skenario:** Login dengan password kurang dari minimum karakter  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -222,7 +222,7 @@ Password: Ch4ngus
 **Catatan:**  Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor.
 
 
-## HLTB_LOGIN_012
+## HLTB_TC_LOGIN_012
 **Skenario:** Login dengan password lebih dari maksimum karakter  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -242,7 +242,7 @@ Password: Ch4ngusMastinGoodLifeIsAlsoGo0dWhatAboutYou?ImStillHereTryingToTestThe
 **Catatan:**  Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor.
 
 
-## HLTB_LOGIN_013
+## HLTB_TC_LOGIN_013
 **Skenario:** Login dengan password tanpa memiliki setidaknya satu huruf kapital  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -262,7 +262,7 @@ Password: chungus12345
 **Catatan:**  Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor.
 
 
-## HLTB_LOGIN_014
+## HLTB_TC_LOGIN_014
 **Skenario:** Login dengan password tanpa memiliki setidaknya satu nomor  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -282,7 +282,7 @@ Password: ChungusIsOkay
 **Catatan:**  Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor.
 
 
-## HLTB_LOGIN_015
+## HLTB_TC_LOGIN_015
 **Skenario:** Klik tombol "Sign Up!"  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -297,7 +297,7 @@ Password: ChungusIsOkay
 **Catatan:**  
 
 
-## HLTB_LOGIN_016
+## HLTB_TC_LOGIN_016
 **Skenario:** Klik tombol "Forgot Password?"  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -312,7 +312,7 @@ Password: ChungusIsOkay
 **Catatan:**  
 
 
-## HLTB_LOGIN_017
+## HLTB_TC_LOGIN_017
 **Skenario:** Klik tombol "Login with IGN"  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -327,7 +327,7 @@ Password: ChungusIsOkay
 **Catatan:** Rekomendasi UI/UX: Warna tombol disarankan menggunakan biru agar tidak menimbulkan persepsi negatif atau disalahartikan.  
 
 
-## HLTB_LOGIN_018
+## HLTB_TC_LOGIN_018
 **Skenario:** Klik link "Contact Support"  
 **Prioritas:** Menengah  
 **Jenis Tes:** Functional  
@@ -342,7 +342,7 @@ Password: ChungusIsOkay
 **Catatan:**  
 
 
-## HLTB_LOGIN_019
+## HLTB_TC_LOGIN_019
 **Skenario:** Klik link "Subscribe to IGN Plus for an Ad-Free Experience!"  
 **Prioritas:** Rendah  
 **Jenis Tes:** Functional  
