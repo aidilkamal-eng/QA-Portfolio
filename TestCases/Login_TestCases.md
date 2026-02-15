@@ -328,7 +328,7 @@ Password: ChungusIsOkay
 
 
 ## HLTB_LOGIN_018
-**Skenario:** Klik tombol "Contact Support"  
+**Skenario:** Klik link "Contact Support"  
 **Prioritas:** Menengah  
 **Jenis Tes:** Functional  
 **Prasyarat:** Pengguna berada di halaman login  
@@ -343,7 +343,7 @@ Password: ChungusIsOkay
 
 
 ## HLTB_LOGIN_019
-**Skenario:** Klik tombol "Subscribe to IGN Plus for an Ad-Free Experience!"  
+**Skenario:** Klik link "Subscribe to IGN Plus for an Ad-Free Experience!"  
 **Prioritas:** Rendah  
 **Jenis Tes:** Functional  
 **Prasyarat:** Pengguna berada di halaman login  
