@@ -182,7 +182,7 @@ Password: Chungus12345
 
 
 ## HLTB_LOGIN_009
-**Skenario:** Login dengan username kurang dari minimum karakter  
+**Skenario:** Login dengan username melebihi maksimum karakter  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
 **Prasyarat:** Pengguna berada di halaman login  
@@ -192,10 +192,190 @@ Password: Chungus12345
 3. Klik "Login"
 
 **Data Uji:**  
-Username: LA   
+Username: SelamatMalamPemirsa77   
 Password: Chungus12345
 
 **Hasil yang Diharapkan:** Login gagal dan muncul pesan error format username salah  
 **Hasil Aktual:** Pesan error muncul "Invalid Username, try again!"  
 **Status:** Pass  
 **Catatan:**  Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter. 
+
+
+## HLTB_LOGIN_010
+**Skenario:** Login dengan username mengandung spasi  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman login  
+**Langkah Pengujian:**  
+1. Masukkan data invalid username dan data valid password
+2. Selesaikan Captcha
+3. Klik "Login"
+
+**Data Uji:**  
+Username: steel charmer   
+Password: Chungus12345
+
+**Hasil yang Diharapkan:** Login gagal dan muncul pesan error format username salah  
+**Hasil Aktual:** Pesan error muncul "Invalid Username, try again!"  
+**Status:** Pass  
+**Catatan:**  Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter.
+
+
+## HLTB_LOGIN_011
+**Skenario:** Login dengan password kurang dari minimum karakter  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman login  
+**Langkah Pengujian:**  
+1. Masukkan data valid username dan data invalid password
+2. Selesaikan Captcha
+3. Klik "Login"
+
+**Data Uji:**  
+Username: steelcharmer   
+Password: Ch4ngus
+
+**Hasil yang Diharapkan:** Login gagal dan muncul pesan error format password salah  
+**Hasil Aktual:** Pesan error muncul "Invalid Credentials!"  
+**Status:** Pass  
+**Catatan:**  Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor.
+
+
+## HLTB_LOGIN_012
+**Skenario:** Login dengan password lebih dari maksimum karakter  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman login  
+**Langkah Pengujian:**  
+1. Masukkan data valid username dan data invalid password
+2. Selesaikan Captcha
+3. Klik "Login"
+
+**Data Uji:**  
+Username: steelcharmer   
+Password: Ch4ngusMastinGoodLifeIsAlsoGo0dWhatAboutYou?ImStillHereTryingToTestThePasswordFormSoThatICanFind0utIfItsWorkingAsExpectedOrNotWishMeLuck
+
+**Hasil yang Diharapkan:** Login gagal dan muncul pesan error format password salah  
+**Hasil Aktual:** Pesan error muncul "Invalid Credentials!"  
+**Status:** Pass  
+**Catatan:**  Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor.
+
+
+## HLTB_LOGIN_013
+**Skenario:** Login dengan password tanpa memiliki setidaknya satu huruf kapital  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman login  
+**Langkah Pengujian:**  
+1. Masukkan data valid username dan data invalid password
+2. Selesaikan Captcha
+3. Klik "Login"
+
+**Data Uji:**  
+Username: steelcharmer   
+Password: chungus12345
+
+**Hasil yang Diharapkan:** Login gagal dan muncul pesan error format password salah  
+**Hasil Aktual:** Pesan error muncul "Invalid Credentials!"  
+**Status:** Pass  
+**Catatan:**  Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor.
+
+
+## HLTB_LOGIN_014
+**Skenario:** Login dengan password tanpa memiliki setidaknya satu huruf nomor  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman login  
+**Langkah Pengujian:**  
+1. Masukkan data valid username dan data invalid password
+2. Selesaikan Captcha
+3. Klik "Login"
+
+**Data Uji:**  
+Username: steelcharmer   
+Password: ChungusIsOkay
+
+**Hasil yang Diharapkan:** Login gagal dan muncul pesan error format password salah  
+**Hasil Aktual:** Pesan error muncul "Invalid Credentials!"  
+**Status:** Pass  
+**Catatan:**  Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor.
+
+
+## HLTB_LOGIN_015
+**Skenario:** Klik tombol "Sign Up!"  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman login  
+**Langkah Pengujian:**  
+1. Klik "Sign Up!"
+
+**Data Uji:**  
+**Hasil yang Diharapkan:** Sistem melakukan redirect ke halaman sign up  
+**Hasil Aktual:** Halaman redirect ke halaman member sign up  
+**Status:** Pass  
+**Catatan:**  
+
+
+## HLTB_LOGIN_016
+**Skenario:** Klik tombol "Forgot Password?"  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman login  
+**Langkah Pengujian:**  
+1. Klik "Forgot Password?"
+
+**Data Uji:**  
+**Hasil yang Diharapkan:** Sistem melakukan redirect ke halaman account recovery  
+**Hasil Aktual:** Halaman redirect ke halaman forgotten password  
+**Status:** Pass  
+**Catatan:**  
+
+
+## HLTB_LOGIN_017
+**Skenario:** Klik tombol "Login with IGN"  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman login  
+**Langkah Pengujian:**  
+1. Klik "Login with IGN"
+
+**Data Uji:**  
+**Hasil yang Diharapkan:** Sistem melakukan redirect ke halaman autentikasi resmi IGN dan URL berubah ke domain IGN.  
+**Hasil Aktual:** Halaman redirect ke halaman login IGN  
+**Status:** Pass  
+**Catatan:** Rekomendasi UI/UX: Warna tombol disarankan menggunakan biru agar tidak menimbulkan persepsi negatif atau disalahartikan.  
+
+
+## HLTB_LOGIN_018
+**Skenario:** Klik tombol "Contact Support"  
+**Prioritas:** Menengah  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman login  
+**Langkah Pengujian:**  
+1. Klik "Contact Support"
+
+**Data Uji:**  
+**Hasil yang Diharapkan:** Sistem melakukan redirect ke halaman costumer support  
+**Hasil Aktual:** Halaman redirect ke halaman site feedback  
+**Status:** Pass  
+**Catatan:**  
+
+
+## HLTB_LOGIN_019
+**Skenario:** Klik tombol "Subscribe to IGN Plus for an Ad-Free Experience!"  
+**Prioritas:** Rendah  
+**Jenis Tes:** Functional  
+**Prasyarat:** Pengguna berada di halaman login  
+**Langkah Pengujian:**  
+1. Klik "Subscribe to IGN Plus for an Ad-Free Experience!"
+
+**Data Uji:**  
+**Hasil yang Diharapkan:** Sistem melakukan redirect ke halaman subscription plan IGN  
+**Hasil Aktual:** Halaman redirect ke halaman subscription plan IGN  
+**Status:** Pass  
+**Catatan:**  Rekomendasi UI/UX: Warna teks disarankan menggunakan biru agar tidak menimbulkan persepsi negatif atau disalahartikan.
+
+
+
+
+
