@@ -1,5 +1,31 @@
-setelah akun terbuat, setting tema yang di set mengikuti system menjadi light, yang seharusnya tema system adalah dark
+# HLTB_BUG_SIGNUP_001
 
-bisa buat lebih dari 1 akun dari 1 email yang sama
+## Judul
+Setelah akun terbuat, tema halaman tidak mengikuti setting tema sistem
 
-akun sebelumnya terlogin sendiri dan session aktif jika mengklik tombol "Subscribe to IGN Plus for an Ad-Free Experience!"
+## Environment
+- Browser: Chrome 140
+- OS: Windows 11
+
+## Prasyarat
+- Data email, username, password valid
+- Tema sistem di setting menjadi dark
+- Tema halaman di setting mengikuti sistem
+- User sudah berada di halaman sign up
+
+## Langkah-langkah untuk Mereproduksi Bug
+1. Masukkan data valid email, username, password
+2. Klik "Create Account"
+
+## Hasil yang Diharapkan
+1. Akun berhasil dibuat
+2. Sistem redirect ke halaman profil
+3. Tema halaman tetap dark mode mengikuti setting sistem
+
+## Hasil Aktual
+1. Akun berhasil dibuat
+2. Sistem redirect ke halaman profil
+3. Tema halaman berubah menjadi light mode
+
+## Tingkat Dampak Bug
+Rendah
