@@ -1,6 +1,6 @@
 # Test Case untuk fitur Sign Up
 
-## HLTB_SIGNUP_001
+## HLTB_TC_SIGNUP_001
 **Skenario:** Verifikasi pendaftaran dengan kredensial valid  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -19,7 +19,7 @@
 **Catatan:** Data pribadi digunakan karena akan dipakai terus  
 
 
-## HLTB_SIGNUP_002
+## HLTB_TC_SIGNUP_002
 **Skenario:** Verifikasi pendaftaran dengan email tidak valid  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -41,7 +41,7 @@ verify Password: chungus 12345
 **Catatan:** 
 
 
-## HLTB_SIGNUP_003
+## HLTB_TC_SIGNUP_003
 **Skenario:** Verifikasi pendaftaran dengan konfirmasi password tidak cocok  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -63,7 +63,7 @@ verify Password: chungus 122345
 **Catatan:**
 
 
-## HLTB_SIGNUP_004
+## HLTB_TC_SIGNUP_004
 **Skenario:** Verifikasi pendaftaran tanpa mencentang CAPTCHA  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -84,7 +84,7 @@ verify Password: chungus 12345
 **Catatan:**
 
 
-## HLTB_SIGNUP_005
+## HLTB_TC_SIGNUP_005
 **Skenario:** Verifikasi pendaftaran dengan password tanpa huruf kapital  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -106,7 +106,7 @@ Verify Password: chungus12345
 **Catatan:** Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor
 
 
-## HLTB_SIGNUP_006
+## HLTB_TC_SIGNUP_006
 **Skenario:** Verifikasi pendaftaran dengan email yang sudah digunakan  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -131,7 +131,7 @@ Verify Password: Chungus12345
 **Catatan:** 
 
 
-## HLTB_SIGNUP_007
+## HLTB_TC_SIGNUP_007
 **Skenario:** Verifikasi pendaftaran dengan username yang sudah digunakan  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -156,7 +156,7 @@ Verify Password: Chungus12345
 **Catatan:** 
 
 
-## HLTB_SIGNUP_008
+## HLTB_TC_SIGNUP_008
 **Skenario:** Verifikasi pendaftaran dengan username menggunakan spasi
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -178,7 +178,7 @@ Verify Password: Chungus12345
 **Catatan:** Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter.
 
 
-## HLTB_SIGNUP_009
+## HLTB_TC_SIGNUP_009
 **Skenario:** Verifikasi pendaftaran dengan karakter username tidak cukup
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -200,7 +200,7 @@ Verify Password: Chungus12345
 **Catatan:** Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter.
 
 
-## HLTB_SIGNUP_010
+## HLTB_TC_SIGNUP_010
 **Skenario:** Verifikasi pendaftaran dengan karakter password tidak cukup  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -222,7 +222,7 @@ Verify Password: Chung4s
 **Catatan:** Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor
 
 
-## HLTB_SIGNUP_011
+## HLTB_TC_SIGNUP_011
 **Skenario:** Verifikasi pendaftaran dengan kolom email kosong  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -244,7 +244,7 @@ Verify Password: Chungus12345
 **Catatan:**  
 
 
-## HLTB_SIGNUP_012
+## HLTB_TC_SIGNUP_012
 **Skenario:** Verifikasi pendaftaran dengan kolom username kosong  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -266,7 +266,7 @@ Verify Password: Chungus12345
 **Catatan:**  
 
 
-## HLTB_SIGNUP_013
+## HLTB_TC_SIGNUP_013
 **Skenario:** Verifikasi pendaftaran dengan kolom password kosong  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -288,7 +288,7 @@ Verify Password: Chungus12345
 **Catatan:**  
 
 
-## HLTB_SIGNUP_014
+## HLTB_TC_SIGNUP_014
 **Skenario:** Verifikasi pendaftaran dengan kolom verify password kosong  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -310,7 +310,7 @@ Verify Password: (kosong)
 **Catatan:**  Rekomendasi: pesan error yang ditampilkan adalah "Verify password cannot be empty"
 
 
-## HLTB_SIGNUP_015
+## HLTB_TC_SIGNUP_015
 **Skenario:** Verifikasi pendaftaran dengan karakter username lebih dari batas maksimal  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -332,7 +332,7 @@ Verify Password: Chungus12345
 **Catatan:** Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter.
 
 
-## HLTB_SIGNUP_016
+## HLTB_TC_SIGNUP_016
 **Skenario:** Verifikasi pendaftaran dengan username mengandung karakter khusus (@,#,$, dll)  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -354,7 +354,7 @@ Verify Password: Chungus12345
 **Catatan:** Format username yang digunakan hanya bisa huruf, angka, dan garis bawah dengan 3-20 karakter.
 
 
-## HLTB_SIGNUP_017
+## HLTB_TC_SIGNUP_017
 **Skenario:** Verifikasi pendaftaran dengan jumlah karakter password melebihi batas maksimum  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -376,7 +376,7 @@ Verify Password: Ch4ngusMastinGoodLifeIsAlsoGo0dWhatAboutYou?ImStillHereTryingTo
 **Catatan:** Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor
 
 
-## HLTB_SIGNUP_018
+## HLTB_TC_SIGNUP_018
 **Skenario:** Verifikasi pendaftaran dengan password tanpa memiliki setidaknya satu nomor  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -398,7 +398,7 @@ Verify Password: ChungusIsOkay
 **Catatan:** Format password akun harus terdiri dari 8-128 karakter dan setidaknya memiliki satu huruf kapital dan satu nomor
 
 
-## HLTB_SIGNUP_019
+## HLTB_TC_SIGNUP_019
 **Skenario:** Klik link "Terms of Use"  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -413,7 +413,7 @@ Verify Password: ChungusIsOkay
 **Catatan:** 
 
 
-## HLTB_SIGNUP_020
+## HLTB_TC_SIGNUP_020
 **Skenario:** Klik link "Privacy Policy"  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -428,7 +428,7 @@ Verify Password: ChungusIsOkay
 **Catatan:** 
 
 
-## HLTB_SIGNUP_021
+## HLTB_TC_SIGNUP_021
 **Skenario:** Klik link "Login"  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
@@ -443,7 +443,7 @@ Verify Password: ChungusIsOkay
 **Catatan:** 
 
 
-## HLTB_SIGNUP_021
+## HLTB_TC_SIGNUP_021
 **Skenario:** Klik link "Contact Support"  
 **Prioritas:** Menengah  
 **Jenis Tes:** Functional  
@@ -458,7 +458,7 @@ Verify Password: ChungusIsOkay
 **Catatan:** 
 
 
-## HLTB_SIGNUP_022
+## HLTB_TC_SIGNUP_022
 **Skenario:** Navigasi kembali setelah akun berhasil dibuat  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional & Session Management Test  
