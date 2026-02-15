@@ -456,3 +456,27 @@ Verify Password: ChungusIsOkay
 **Hasil Aktual:** Sistem redirect ke halaman Site Feedback  
 **Status:** Pass  
 **Catatan:** 
+
+
+## HLTB_SIGNUP_022
+**Skenario:** Navigasi kembali setelah akun berhasil dibuat  
+**Prioritas:** Tinggi  
+**Jenis Tes:** Functional & Session Management Test  
+**Prasyarat:**  
+- Akun berhasil dan baru saja dibuat
+- Pengguna sudah masuk ke halaman profil
+
+**Langkah Pengujian:**
+1. Klik tombol back pada browser
+
+**Data Uji:**  
+**Hasil yang Diharapkan:**  
+- Sistem mengarahkan pengguna ke halaman Home
+- Session tetap aktif
+
+**Hasil Aktual:**  
+- Sistem kembali ke halaman Sign Up
+- Session tetap aktif
+
+**Status:** Fail  
+**Catatan:** Rekomendasi: Sistem sebaiknya mengarahkan pengguna ke halaman Home atau menampilkan peringatan form resubmission untuk menghindari kebingungan pengguna.
