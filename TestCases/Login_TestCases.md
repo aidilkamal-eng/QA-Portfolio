@@ -263,7 +263,7 @@ Password: chungus12345
 
 
 ## HLTB_LOGIN_014
-**Skenario:** Login dengan password tanpa memiliki setidaknya satu huruf nomor  
+**Skenario:** Login dengan password tanpa memiliki setidaknya satu nomor  
 **Prioritas:** Tinggi  
 **Jenis Tes:** Functional  
 **Prasyarat:** Pengguna berada di halaman login  
