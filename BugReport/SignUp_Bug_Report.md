@@ -29,3 +29,10 @@ Setelah akun terbuat, tema halaman tidak mengikuti setting tema sistem
 
 ## Tingkat Dampak Bug
 Rendah
+
+## Prioritas
+Rendah
+
+## Lampiran
+<img width="1919" height="890" alt="Screenshot 2026-02-15 174053" src="https://github.com/user-attachments/assets/933792b5-86a7-4385-bc3c-7d826c3fa0b8" />
+
