@@ -122,25 +122,6 @@ Username: steelcharmer
 **Catatan:**  
 
 
-## HLTB_LOGIN_006
-**Skenario:** Login dengan kolom password kosong  
-**Prioritas:** Tinggi  
-**Jenis Tes:** Functional  
-**Prasyarat:** Pengguna berada di halaman login  
-**Langkah Pengujian:**  
-1. Masukkan data valid username
-2. Selesaikan Captcha
-3. Klik "Login"
-
-**Data Uji:**  
-Username: steelcharmer    
-
-**Hasil yang Diharapkan:** Login gagal dan muncul pesan error untuk mengisi password  
-**Hasil Aktual:** Pesan error muncul "You forgot your secret password!"  
-**Status:** Pass  
-**Catatan:**  
-
-
 ## HLTB_LOGIN_007
 **Skenario:** Login dengan username mengandung karakter khusus (@,#,$, dll)  
 **Prioritas:** Tinggi  
