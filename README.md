@@ -1,13 +1,13 @@
 # Portofolio Quality Assurance (QA)
 
-## 📌 Tentang Repository Ini
+## Tentang Repository Ini
 Repository ini berisi portofolio saya sebagai Quality Assurance (QA), yang mencakup Test Case, Bug Report, dan Test Plan untuk fitur web How Long to Beat seperti Login dan Registrasi.
 
 Tujuan dari repository ini adalah untuk menunjukkan pemahaman saya terhadap proses pengujian perangkat lunak, dokumentasi yang terstruktur, serta pelaporan bug secara profesional.
 
 ---
 
-## 🎯 Ruang Lingkup Pengujian
+## Ruang Lingkup Pengujian
 
 ### Fitur yang Diuji (In Scope)
 - Fitur Login
@@ -20,7 +20,7 @@ Tujuan dari repository ini adalah untuk menunjukkan pemahaman saya terhadap pros
 
 ---
 
-## 🧪 Pendekatan Pengujian
+## Pendekatan Pengujian
 
 Metode pengujian yang digunakan:
 
@@ -32,7 +32,7 @@ Metode pengujian yang digunakan:
 
 ---
 
-## 🛠 Tools & Lingkungan Pengujian
+## Tools & Lingkungan Pengujian
 
 - Sistem Operasi: Windows 11
 - Browser: Google Chrome 145
@@ -41,7 +41,7 @@ Metode pengujian yang digunakan:
 
 ---
 
-## 📂 Struktur Repository
+## Struktur Repository
 
 QA-Portfolio/  
 │  
@@ -60,7 +60,7 @@ QA-Portfolio/
 
 ---
 
-## ✅ Tujuan Pengujian
+## Tujuan Pengujian
 
 - Memastikan fitur berjalan sesuai requirement
 - Mengidentifikasi defect
@@ -68,7 +68,7 @@ QA-Portfolio/
 
 ---
 
-## 👤 Tentang Saya
+## Tentang Saya
 
 M. Aidil Kamal Adlim  
 Junior Quality Assurance Engineer  
