@@ -43,20 +43,20 @@ Metode pengujian yang digunakan:
 
 ## 📂 Struktur Repository
 
-QA-Portfolio/
-│
-├── TestCases/
-│   ├── Login_TestCases.md
-│   ├── SignUp_TestCases.md
-│
-├── BugReports/
-│   ├── Login_BugReports.md
-|   ├── SignUp_BugReports.md
-│
-├── TestPlan/
-│   ├── TestPlan_HowLongToBeat.md
-│
-└── README.md
+QA-Portfolio/  
+│  
+├── TestCases/  
+│   ├── Login_TestCases.md  
+│   ├── SignUp_TestCases.md  
+│  
+├── BugReports/  
+│   ├── Login_BugReports.md  
+|   ├── SignUp_BugReports.md  
+│  
+├── TestPlan/  
+│   ├── TestPlan_HowLongToBeat.md  
+│  
+└── README.md  
 
 ---
 
